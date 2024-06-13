@@ -1,11 +1,76 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+	<title>KMB Incubator - Home</title>
+	<link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="dycalendar.min.css">
+    <script src="dycalendar.min.js"></script>
+
 </head>
 <body>
-    
+	<header>
+		<nav>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">About Us</a></li>
+				<li><a href="#">Contact Us</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<section class="hero">
+			<h1>KMB Incubator Booking System</h1>
+			<button>Book now</button>
+		</section>
+		<section class="features">
+			<h2>Our Services</h2>
+			<ul>
+				<li>
+					<i class="fas fa-chart-line"></i>
+					<h3>Data Analytics</h3>
+					<p>We help businesses make data-driven decisions</p>
+				</li>
+				<li>
+					<i class="fas fa-code"></i>
+					<h3>Software Development</h3>
+					<p>We develop custom software solutions for businesses</p>
+				</li>
+				<li>
+					<i class="fas fa-lock"></i>
+					<h3>Cybersecurity</h3>
+					<p>We protect businesses from cyber threats</p>
+				</li>
+			</ul>
+		</section>
+
+        <!-- Integrated Google Calendar -->
+        <section class="calendar">
+            <iframe src="https://calendar.google.com/calendar/embed?src=adamrahimcb180%40gmail.com&ctz=Asia%2FKuala_Lumpur" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+        </section>
+
+        <!-- Yusuf Syakeel Calendar -->
+         <section>
+            <div class="calendarContainer">
+                <div id="dycalendar"></div>
+            </div>
+        </section>
+
+		<section class="testimonials">
+			<h2>What Our Clients Say</h2>
+			<ul>
+				<li>
+					<p>"ABC Corporation has been a game-changer for our business. Their data analytics services have helped us increase our revenue by 20%."</p>
+					<span>- John Doe, CEO of XYZ Inc.</span>
+				</li>
+				<li>
+					<p>"The software developed by ABC Corporation has streamlined our operations and improved our efficiency."</p>
+					<span>- Jane Smith, COO of ABC Inc.</span>
+				</li>
+			</ul>
+		</section>
+	</main>
+	<footer>
+		<p>&copy; 2023 ABC Corporation. All rights reserved.</p>
+	</footer>
 </body>
 </html>
